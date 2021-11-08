@@ -1,0 +1,1 @@
+D:\FPT\WindowForm\Class2\App1\App1.csproj;x64
