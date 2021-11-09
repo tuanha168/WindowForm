@@ -42,7 +42,7 @@ namespace Practice1
                 connection.Open();
                 return true;
             }
-            catch (MySqlException ex)
+            catch
             {
                 return false;
             }
@@ -54,7 +54,7 @@ namespace Practice1
                 connection.Close();
                 return true;
             }
-            catch (MySqlException ex)
+            catch
             {
                 return false;
             }

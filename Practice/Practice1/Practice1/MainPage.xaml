@@ -44,6 +44,6 @@
         <TextBlock Grid.Column="1" Text="Employees" HorizontalAlignment = "Left" TextWrapping = "Wrap"  
             VerticalAlignment = "Top" Width = "370" Height="35" Margin="70,70,0,0"/>
 
-        <Custom:DataGrid Grid.Column="1" x:Name="EmployeeTable" Height="300" Width="400" ItemsSource="{x:Bind Employees}" ExitDisplayModeOnAccessKeyInvoked="False" Margin="70,127,280,-76"/>
+        <Custom:DataGrid Grid.Column="1" x:Name="EmployeeTable" Height="300" Width="600" ItemsSource="{x:Bind Employees}" Margin="70,170,80,-119"/>
     </Grid>
 </Page>
